@@ -4,6 +4,7 @@ import Hero from "./componenets/Hero";
 import Gallery from "./componenets/Gallery";
 import BoardOfDirectors from "./componenets/BoardOfDirectors";
 import FAQ from "./componenets/FAQ";
+import Contact from "./componenets/Contact";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,6 +15,7 @@ const App = () => {
       <Gallery />
       <BoardOfDirectors />
       <FAQ />
+      <Contact />
     </main>
   );
 };

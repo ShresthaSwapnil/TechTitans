@@ -37,10 +37,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section
-      id="faq"
-      className="py-20 bg-gradient-to-b from-green-900 to-default"
-    >
+    <section id="faq" className="py-20 bg-green-900">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-zentry text-white text-center mb-12">
           Frequently Asked Questions
