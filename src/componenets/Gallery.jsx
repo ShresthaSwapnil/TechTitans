@@ -47,7 +47,7 @@ const Gallery = () => {
       <h2 className="text-4xl font-zentry text-white text-center mb-10">
         Gallery
       </h2>
-      <div ref={carouselRef} className="flex gap-4 p-4">
+      <div ref={carouselRef} className="flex gap-6 p-4">
         {images.map((src, index) => (
           <div key={index} className="gallery-img-container flex-shrink-0">
             <div
