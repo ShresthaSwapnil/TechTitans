@@ -44,7 +44,7 @@ const Gallery = () => {
       id="gallery"
       className="h-screen/2 overflow-hidden bg-black mt-10"
     >
-      <h2 className="text-4xl font-zentry text-white text-center my-12">
+      <h2 className="text-4xl font-zentry text-white text-center my-20">
         Gallery
       </h2>
       <div ref={carouselRef} className="flex gap-6 p-4">

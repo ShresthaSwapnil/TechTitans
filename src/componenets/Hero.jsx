@@ -50,11 +50,21 @@ const Hero = () => {
         </div>
 
         <div className="social-links flex gap-6">
-          <a href="#" className="text-white hover:text-black transition-colors">
-            <FaInstagram size={24} />
-          </a>
-          <a href="#" className="text-white hover:text-black transition-colors">
+          <a
+            href="https://www.facebook.com/techtitans"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-200 hover:text-white"
+          >
             <FaFacebook size={24} />
+          </a>
+          <a
+            href="https://www.twitter.com/techtitans"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-200 hover:text-white"
+          >
+            <FaInstagram size={24} />
           </a>
         </div>
       </div>
