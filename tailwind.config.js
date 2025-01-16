@@ -6,6 +6,10 @@ export default {
       colors: {
         default: "#00e091",
       },
+      fontFamily: {
+        poppins: ["poppins", "sans-serif"],
+        montserrat: ["montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],

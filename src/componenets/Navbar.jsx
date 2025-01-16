@@ -35,7 +35,7 @@ const Navbar = () => {
                 alt="Tech Titans Logo"
                 className="h-10 w-10"
               />
-              <span className="font-zentry text-xl text-white ">
+              <span className="font-poppins-bold text-xl text-white ">
                 Tech Titans
               </span>
             </div>

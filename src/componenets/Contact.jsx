@@ -9,14 +9,14 @@ const Contact = () => {
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-12">
         {/* Left Section */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-4xl font-zentry text-white mb-6">
-            Let’s Connect
+          <h2 className="text-4xl font-poppins font-bold text-white mb-6">
+            Let's Connect
           </h2>
-          <p className="text-lg text-gray-300 mb-4">
+          <p className="text-lg text-gray-300 mb-4 font-montserrat">
             Have an event idea? Want to collaborate? Fill out the form and let’s
             make something amazing together!
           </p>
-          <p className="text-lg text-gray-300">
+          <p className="text-lg text-gray-300 font-montserrat">
             You can also reach us at{" "}
             <a
               href="mailto:contact@techtitans.com"
@@ -67,7 +67,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-green-700 text-white py-3 rounded-lg hover:bg-green-600 transition-colors"
+              className="w-full bg-default text-white py-3 rounded-lg hover:bg-green-600 transition-colors font-poppins font-semibold"
             >
               Send Message
             </button>

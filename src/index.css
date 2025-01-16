@@ -7,40 +7,14 @@ html {
 @tailwind utilities;
 
 body {
-  font-family: "General Sans", sans-serif;
+  /* font-family: "General Sans", sans-serif; */
   width: 100dvw;
   background-color: #fff;
   overflow-x: hidden;
 }
 
-@layer base {
-  @font-face {
-    font-family: "circular-web";
-    src: url("/fonts/circularweb-book.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "general";
-    src: url("/fonts/general.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "robert-medium";
-    src: url("/fonts/robert-medium.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "robert-regular";
-    src: url("/fonts/robert-regular.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "zentry";
-    src: url("/fonts/zentry-regular.woff2") format("woff2");
-  }
-}
-
 @layer utilities {
+
   .border-hsla {
     @apply border border-white/20;
   }
@@ -121,7 +95,7 @@ body {
   }
 
   .gallery-img-container {
-    @apply size-64 overflow-hidden bg-violet-300;
+    @apply size-64 overflow-hidden rounded-lg;
   }
 
   .gallery-img {

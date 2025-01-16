@@ -39,7 +39,7 @@ const FAQSection = () => {
   return (
     <section id="faq" className="py-20 bg-green-900">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-zentry text-white text-center mb-12">
+        <h2 className="text-4xl font-poppins font-bold text-white text-center mb-12">
           Frequently Asked Questions
         </h2>
         <div className="max-w-3xl mx-auto">
@@ -52,7 +52,7 @@ const FAQSection = () => {
                 className="flex justify-between items-center cursor-pointer"
                 onClick={() => toggleAnswer(index)}
               >
-                <h3 className="text-lg font-semibold text-white">
+                <h3 className="text-lg font-poppins text-white">
                   {faq.question}
                 </h3>
                 {openIndex === index ? (
@@ -62,7 +62,9 @@ const FAQSection = () => {
                 )}
               </div>
               {openIndex === index && (
-                <p className="text-green-100 mt-2">{faq.answer}</p>
+                <p className="text-green-100 mt-2 font-montserrat">
+                  {faq.answer}
+                </p>
               )}
             </div>
           ))}
